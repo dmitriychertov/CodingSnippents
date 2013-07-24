@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56" started-at="2013-07-24T09:00:06Z" finished-at="2013-07-24T09:00:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56" started-at="2013-07-24T09:00:06Z" finished-at="2013-07-24T09:00:06Z">
+      <class name="com.karmanov.dnv.DomainNameValidatorTest">
+        <test-method status="PASS" signature="initData()[pri:0, instance:com.karmanov.dnv.DomainNameValidatorTest@36577c06]" name="initData" is-config="true" duration-ms="16" started-at="2013-07-24T12:00:06Z" finished-at="2013-07-24T12:00:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initData -->
+        <test-method status="PASS" signature="InvalidDomainNameTest([Ljava.lang.String;)[pri:0, instance:com.karmanov.dnv.DomainNameValidatorTest@36577c06]" name="InvalidDomainNameTest" duration-ms="12" started-at="2013-07-24T12:00:06Z" data-provider="InvalidDomainNameProvider" finished-at="2013-07-24T12:00:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2a14d8c8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidDomainNameTest -->
+        <test-method status="PASS" signature="ValidDomainNameTest([Ljava.lang.String;)[pri:0, instance:com.karmanov.dnv.DomainNameValidatorTest@36577c06]" name="ValidDomainNameTest" duration-ms="3" started-at="2013-07-24T12:00:06Z" data-provider="ValidDomainNameProvider" finished-at="2013-07-24T12:00:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3ea4480d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidDomainNameTest -->
+      </class> <!-- com.karmanov.dnv.DomainNameValidatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
